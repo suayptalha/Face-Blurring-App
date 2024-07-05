@@ -19,7 +19,7 @@ def blurred():
         cv2.imshow("Blurred",frame1)
         cv2.waitKey(1)
 
-        if cv2.waitKey(1) & 0xFF == ord('q'): #Press 'q' button to exit
+        if cv2.waitKey(1) & 0xFF == ord('q'): #Press 'q' button to quit
             cv2.destroyAllWindows()
             break
 blurred()
